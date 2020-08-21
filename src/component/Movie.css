@@ -2,13 +2,18 @@
   width: 45%;
   background-color: white;
   margin-bottom: 70px;
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
   font-weight: 300;
   padding: 20px;
   border-radius: 5px;
   color: #b2b3bc;
+}
+
+.movies .movie a {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  text-decoration: none;
+  color: inherit;
 }
 
 .movie img {
