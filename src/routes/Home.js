@@ -19,9 +19,11 @@ class Home extends React.Component {
     );
     this.setState({ movies, isLoading: false });
   };
+
   componentDidMount() {
     this.getMovies();
   }
+
   render() {
     const { isLoading, movies } = this.state;
     return (
