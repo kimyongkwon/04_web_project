@@ -5,3 +5,10 @@
   top: 15%;
   width: 50%;
 }
+
+@media screen and (max-width: 800px) {
+  .movie__detail__data {
+    padding-left: 50px;
+    width: 70%;
+  }
+}

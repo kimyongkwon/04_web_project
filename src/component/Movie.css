@@ -69,6 +69,10 @@
     background-color: transparent !important;
   }
   .movie__data {
-    height: 400px;
+    height: 350px;
+    transform: translateY(50px);
+  }
+  .movie__summary {
+    display: none;
   }
 }

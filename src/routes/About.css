@@ -6,15 +6,19 @@
   background-color: white;
   margin: 0 auto;
   margin-top: 100px;
-  max-width: 25%;
-  font-weight: 300;
+  max-width: 40%;
+  text-align: center;
 }
 
-.about__container span:first-child {
+.about__container span {
   font-size: 20px;
 }
 
-.about__container span:last-child {
+.about__data {
+  margin-top: 50px;
   display: block;
-  margin-top: 10px;
+}
+
+.about__link i {
+  font-size: 40px;
 }
