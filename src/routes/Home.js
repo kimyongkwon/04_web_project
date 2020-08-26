@@ -47,9 +47,25 @@ class Home extends React.Component {
             ))}
           </div>
         )}
+        {/* <button className="arrow">
+          <i className="fas fa-arrow-circle-up"></i>
+        </button> */}
       </section>
     );
   }
 }
 
+// const arrow = document.querySelector(".arrow");
+
+// function init() {
+//   window.addEventListener("scroll", () => {
+//     if (window.scrollY > 100) {
+//       arrow.classList.add("show");
+//     } else {
+//       arrow.classList.remove("show");
+//     }
+//   });
+// }
+
+// init();
 export default Home;

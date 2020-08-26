@@ -6,9 +6,27 @@
   width: 50%;
 }
 
-@media screen and (max-width: 800px) {
+.movie__detail__back {
+  position: absolute;
+  top: 10%;
+  right: 2%;
+
+  text-decoration: none;
+  border: none;
+  outline: none;
+}
+
+.movie__detail__back i {
+  font-size: 30px;
+  color: black;
+}
+
+@media screen and (max-width: 1400px) {
   .movie__detail__data {
     padding-left: 50px;
     width: 70%;
+  }
+  .movie__detail__back {
+    left: 1%;
   }
 }
