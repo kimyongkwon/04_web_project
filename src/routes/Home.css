@@ -22,3 +22,9 @@
   padding-top: 70px;
   width: 80%;
 }
+
+@media screen and (max-width: 1400px) {
+  .movies {
+    display: inline;
+  }
+}

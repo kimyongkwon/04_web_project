@@ -54,3 +54,21 @@
   margin-right: 10px;
   font-size: 14px;
 }
+
+@media screen and (max-width: 1400px) {
+  .movie {
+    display: inline;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .movie img {
+    top: 0px;
+  }
+  .movie {
+    background-color: transparent !important;
+  }
+  .movie__data {
+    height: 400px;
+  }
+}
